@@ -1,0 +1,68 @@
+body{
+    background-image: url(/scr/cool.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#6F8BE0;
+  border-radius: 10px; /* زوايا مدورة */
+  justify-content: flex-end;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ECB0BD;
+}
+
+.box{
+      font-family: "Noto Sans Arabic", sans-serif;
+      color: white;
+      position: absolute; /* وضع العنصر بشكل مطلق */
+      top: 50%; /* وضع العنصر في منتصف الصفحة عموديًا */
+      left: 50%; /* وضع العنصر في منتصف الصفحة أفقيًا */
+      transform: translate(-50%, -50%); /* يحرك العنصر للوسط تمامًا */
+      width: 500px; /* عرض المربع */
+      height: 200px; /* ارتفاع المربع */
+      padding: 20px; /* إضافة مساحة داخلية */
+      border-radius: 10px; /* زوايا مدورة */
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* ظل المربع */
+      text-align: center; /* محاذاة النص في المنتصف */
+      background-color: rgba(173, 216, 230, 0.4); /* زيادة الشفافية */
+      border: 2px solid none ; /* حدود المربع مع شفافية أقل */
+    
+}
+
+.my-button {
+    margin-top: 15px; /* إضافة مسافة بين النص والزر */
+    padding: 10px 20px; /* مساحة داخلية للزر */
+    border: none; /* إزالة الحدود الافتراضية للزر */
+    border-radius: 5px; /* زوايا مدورة للزر */
+    background-color: #c6cacd; /* لون خلفية الزر */
+    color: black; /* لون نص الزر */
+    font-size: 16px; /* حجم خط النص داخل الزر */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الزر */
+    transition: background-color 0.3s; /* تأثير انتقال لتغيير لون الخلفية */
+}
+
+.my-button:hover {
+    background-color: #6F8BE0; /* تغيير لون الخلفية عند التمرير فوق الزر */
+}
+
